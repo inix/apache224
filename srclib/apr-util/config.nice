@@ -1,0 +1,24 @@
+#! /bin/sh
+#
+# Created by configure
+
+"/home/zhongyj/httpd-2.2.24/srclib/apr-util/configure" \
+"--disable-option-checking" \
+"--enable-proxy" \
+"--enable-proxy-http" \
+"--enable-proxy-balancer" \
+"--enable-file-cache" \
+"--enable-cache" \
+"--enable-disk-cache" \
+"--enable-mem-cache" \
+"--enable-deflate" \
+"--enable-headers" \
+"--cache-file=/dev/null" \
+"--srcdir=/home/zhongyj/httpd-2.2.24/srclib/apr-util" \
+"--with-apr=../apr" \
+"--prefix=/usr/local/apache2" \
+"--exec-prefix=/usr/local/apache2" \
+"--libdir=/usr/local/apache2/lib" \
+"--includedir=/usr/local/apache2/include" \
+"--bindir=/usr/local/apache2/bin" \
+"$@"
